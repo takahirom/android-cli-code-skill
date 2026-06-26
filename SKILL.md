@@ -1,5 +1,5 @@
 ---
-name: android-cli-code-edit-skill
+name: android-cli-code-skill
 description: Navigate and verify Android/Kotlin code through a running Android Studio, using the Android CLI's `android studio` subcommands (find-declaration, find-usages, analyze-file, render-compose-preview, version-lookup). Use this whenever working in an Android codebase and you need to find where a symbol is declared or used, see a file's lint/inspection warnings before building, confirm a Compose preview still renders, or look up the latest version of a dependency. Prefer it over plain text search (grep) for anything symbol-related, since it uses the IDE index and won't conflate same-named symbols — and reach for it especially during refactors and renames and in large codebases.
 ---
 

@@ -1,4 +1,4 @@
-# android-cli-code-edit-skill
+# android-cli-code-skill
 
 An [Agent Skill](https://agentskills.io/) that lets an AI agent understand and edit Android code through a **running Android Studio**, using the Android CLI's `android studio` subcommands. The agent works from the IDE's semantic index instead of plain text search.
 
@@ -15,7 +15,7 @@ Get the project name with `android studio check`, then pass `--project=<name>` t
 Use the [skills CLI](https://github.com/vercel-labs/skills):
 
 ```bash
-npx skills add takahirom/android-cli-code-edit-skill
+npx skills add takahirom/android-cli-code-skill
 ```
 
 Pick your agents when prompted; the CLI copies the skill into each selected agent's skills directory.

@@ -80,6 +80,10 @@ Understand, edit, verify, using the index at each step:
 2. Edit the code.
 3. `analyze-file` (and `render-compose-preview` for Compose) to verify before building. Re-run `find-usages` if you changed a symbol's shape.
 
+## If Studio isn't running
+
+If `android studio check` shows no `READY` project, run `studio <project-path>` to launch it (JetBrains Toolbox launcher; else open it manually), then re-run `android studio check` until the project is `READY`.
+
 ## Rules
 
 - Get the project name from `android studio check` before anything else; the commands need a running Studio with that project open.
